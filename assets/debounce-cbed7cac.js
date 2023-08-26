@@ -1,0 +1,1 @@
+let t;function e(e,n=300,o=!1){if(null!==t&&clearTimeout(t),o){var u=!t;t=setTimeout((function(){t=null}),n),u&&"function"==typeof e&&e()}else t=setTimeout((function(){"function"==typeof e&&e()}),n)}export{e as d};
